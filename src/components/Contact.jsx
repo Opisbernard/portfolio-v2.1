@@ -85,7 +85,7 @@ const Contact = () => {
               placeholder:text-taupe
               text-timberWolf rounded-lg outline-none
               border-none font-medium"
-            />
+              required/>
           </label>
           <label className="flex flex-col">
             <span className="text-timberWolf font-medium mb-4">Your Email</span>
@@ -99,7 +99,7 @@ const Contact = () => {
               placeholder:text-taupe
               text-timberWolf rounded-lg outline-none
               border-none font-medium"
-            />
+              required/>
           </label>
           <label className="flex flex-col">
             <span className="text-timberWolf font-medium mb-4">
@@ -115,7 +115,7 @@ const Contact = () => {
               placeholder:text-taupe
               text-timberWolf rounded-lg outline-none
               border-none font-medium resize-none"
-            />
+              required/>
           </label>
 
           <button
