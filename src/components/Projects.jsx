@@ -14,7 +14,7 @@ const ProjectCard = ({
   name,
   description,
   image,
-  repo,
+  // repo,
   demo,
   index,
   active,
@@ -53,7 +53,7 @@ const ProjectCard = ({
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
-            <div className="absolute inset-0 flex justify-end m-3">
+            {/* <div className="absolute inset-0 flex justify-end m-3">
               <div
                 onClick={() => window.open(repo, '_blank')}
                 className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
@@ -65,7 +65,7 @@ const ProjectCard = ({
                   className="w-4/5 h-4/5 object-contain"
                 />
               </div>
-            </div>
+            </div> */}
 
             <h2
               className="font-bold sm:text-[32px] text-[24px] 
@@ -127,11 +127,8 @@ const Projects = () => {
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          These projects demonstrate my expertise by presenting tangible samples of some of my work, complete with brief descriptions and live demos. They demonstrate my ability to deal with adversity, complicated issues, adapt to new technology, and manage projects efficiently.
+
         </motion.p>
       </div>
 

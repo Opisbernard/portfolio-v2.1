@@ -8,24 +8,24 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  // redux,
   tailwind,
   nodejs,
   git,
   figma,
-  docker,
-  postgresql,
-  rubyrails,
-  graphql,
+  // docker,
+  // postgresql,
+  // rubyrails,
+  // graphql,
   komikult,
   leaderboard,
   math,
-  movie,
-  nyeusi,
+  // movie,
+  // nyeusi,
   coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  // dcc,
+  // kelhel,
+  // microverse,
 } from '../assets';
 
 export const navLinks = [
@@ -83,10 +83,10 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -95,18 +95,18 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
   {
     name: 'git',
     icon: git,
@@ -115,48 +115,48 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'FULL STACK WEB DEVELOPER',
+    company_name: '197 Ventures',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+    date: 'Feb 2021 - March 2022',
+  }
+  // {
+  //   title: 'Mentor (Volunteer)',
+  //   company_name: 'Microverse',
+  //   icon: microverse,
+  //   iconBg: '#333333',
+  //   date: 'Mar 2022 - May 2022',
+  // },
+  // {
+  //   title: 'Junior Software Engineer',
+  //   company_name: 'Kelhel',
+  //   icon: kelhel,
+  //   iconBg: '#333333',
+  //   date: 'May 2022 - Oct 2022',
+  // },
+  // {
+  //   title: 'Full Stack Developer',
+  //   company_name: 'Diversity Cyber Council',
+  //   icon: dcc,
+  //   iconBg: '#333333',
+  //   date: 'Sep 2022 - Present',
+  // },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Portfolio-v1',
+    description: 'A Porttfolio Built with React',
     // tags: [
     //   {
     //     name: 'react',
@@ -172,14 +172,14 @@ const projects = [
     //   },
     // ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    // repo: '#',
+    demo: 'https://bernardopis.netlify.app/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Portfolio-v2',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Porfolio design for Black Lovers',
     // tags: [
     //   {
     //     name: 'react',
@@ -195,13 +195,13 @@ const projects = [
     //   },
     // ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    // repo: '#',
+    demo: 'https://devprofilev2.netlify.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'TickToClock',
+    description: 'This is a to-do list app built with React',
     // tags: [
     //   {
     //     name: 'nextjs',
@@ -217,54 +217,54 @@ const projects = [
     //   },
     // ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    // repo: '#',
+    demo: 'https://ticktoclock.netlify.app/',
   },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    // tags: [
-    //   {
-    //     name: 'nextjs',
-    //     color: 'blue-text-gradient',
-    //   },
-    //   {
-    //     name: 'supabase',
-    //     color: 'green-text-gradient',
-    //   },
-    //   {
-    //     name: 'css',
-    //     color: 'pink-text-gradient',
-    //   },
-    // ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    // tags: [
-    //   {
-    //     name: 'nextjs',
-    //     color: 'blue-text-gradient',
-    //   },
-    //   {
-    //     name: 'supabase',
-    //     color: 'green-text-gradient',
-    //   },
-    //   {
-    //     name: 'css',
-    //     color: 'pink-text-gradient',
-    //   },
-    // ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+  // {
+  //   id: 'project-4',
+  //   name: '#',
+  //   description: `#`,
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: movie,
+  //   repo: '#',
+  //   demo: '#',
+  // },
+  // {
+  //   id: 'project-5',
+  //   name: '#',
+  //   description:
+  //     '#',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: nyeusi,
+  //   repo: '#',
+  //   demo: '#',
+  // },
 ];
 
 export { services, technologies, experiences, projects };

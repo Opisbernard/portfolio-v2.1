@@ -41,12 +41,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Welcome to my portfolio website! I'm Bernard Opis, a passionate front-end developer with a strong dedication to creating beautiful and functional web experiences. This website serves as a window into my world of web development, showcasing my skills, projects, and the creative journey that fuels my work. As a front-end developer, I am driven by the belief that the internet is a canvas for innovation and connection. My goal is to craft visually appealing and user-friendly websites that not only meet but exceed the expectations of both clients and users. Through this portfolio, I aim to convey the essence of my work and the principles that guide my approach.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
