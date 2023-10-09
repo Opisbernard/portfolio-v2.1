@@ -43,14 +43,15 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import portfolio1 from './projects/portfolio1.jpg';
+import portfolio2 from './projects/portfolio2.jpg';
+import ticktoclock from './projects/ticktoclock.jpg';
+
 
 export {
+  portfolio1,
+  portfolio2,
+  ticktoclock,
   bwmap,
   nairobi,
   whiteabstract,
@@ -86,12 +87,12 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  // komikult,
+  // leaderboard,
+  // math,
+  // movie,
+  // nyeusi,
+  // space,
   coverhunt,
   dcc,
   kelhel,
