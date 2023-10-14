@@ -176,7 +176,7 @@ const projects = [
     // ],
     image: portfolio1,
     // repo: '#',
-    demo: 'https://bernardopis.netlify.app/',
+    demo: 'https://bernard-portfolio1.netlify.app/',
   },
   {
     id: 'project-2',
@@ -199,7 +199,7 @@ const projects = [
     // ],
     image: portfolio2,
     // repo: '#',
-    demo: 'https://devprofilev2.netlify.app/',
+    demo: 'https://opisbernard.netlify.app/',
   },
   {
     id: 'project-3',
