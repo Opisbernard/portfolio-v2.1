@@ -27,6 +27,7 @@ import {
   portfolio2,
   ticktoclock,
   game,
+  puzzle,
   // dcc,
   // kelhel,
   // microverse,

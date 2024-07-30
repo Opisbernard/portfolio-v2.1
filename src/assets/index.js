@@ -46,9 +46,8 @@ import microverse from './company/microverse.png';
 import portfolio1 from './projects/portfolio1.jpg';
 import portfolio2 from './projects/portfolio2.jpg';
 import ticktoclock from './projects/ticktoclock.jpg';
-import game from './projects/game.jpg'
-import puzzle from './projects/puzzle'; 
-
+import game from './projects/game.jpg';
+import puzzle from './projects/puzzle.jpg'
 
 
 export {
