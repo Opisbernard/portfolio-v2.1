@@ -26,6 +26,7 @@ import {
   portfolio1,
   portfolio2,
   ticktoclock,
+  game,
   // dcc,
   // kelhel,
   // microverse,
@@ -203,7 +204,7 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'TickToClock',
+    name: 'Taskmasterlist',
     description: 'This is a to-do list app built with React',
     // tags: [
     //   {
@@ -221,53 +222,53 @@ const projects = [
     // ],
     image: ticktoclock,
     // repo: '#',
-    demo: 'https://ticktoclock.netlify.app/',
+    demo: 'https://taskmasterlist.netlify.app/',
   },
-  // {
-  //   id: 'project-4',
-  //   name: '#',
-  //   description: `#`,
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: movie,
-  //   repo: '#',
-  //   demo: '#',
-  // },
-  // {
-  //   id: 'project-5',
-  //   name: '#',
-  //   description:
-  //     '#',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: nyeusi,
-  //   repo: '#',
-  //   demo: '#',
-  // },
+  {
+    id: 'project-4',
+    name: '3072',
+    description: '3072 Game',
+    // tags: [
+    //   {
+    //     name: 'nextjs',
+    //     color: 'blue-text-gradient',
+    //   },
+    //   {
+    //     name: 'supabase',
+    //     color: 'green-text-gradient',
+    //   },
+    //   {
+    //     name: 'css',
+    //     color: 'pink-text-gradient',
+    //   },
+    // ],
+    image: game,
+    // repo: '#',
+    demo: 'https://3072.netlify.app/',
+  },
+  {
+    id: 'project-5',
+    name: 'Puzzle Madness',
+    description: 'Puzzle Game',
+    // tags: [
+    //   {
+    //     name: 'nextjs',
+    //     color: 'blue-text-gradient',
+    //   },
+    //   {
+    //     name: 'supabase',
+    //     color: 'green-text-gradient',
+    //   },
+    //   {
+    //     name: 'css',
+    //     color: 'pink-text-gradient',
+    //   },
+    // ],
+    image: puzzle,
+    // repo: '#',
+    demo: 'https://puzzlemadness.netlify.app/',
+  },
+
 ];
 
 export { services, technologies, experiences, projects };
