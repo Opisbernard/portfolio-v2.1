@@ -8,29 +8,20 @@ import {
   html,
   css,
   reactjs,
-  // redux,
   tailwind,
   nodejs,
   git,
   figma,
-  // docker,
-  // postgresql,
-  // rubyrails,
-  // graphql,
-  // komikult,
-  // leaderboard,
-  // math,
-  // movie,
-  // nyeusi,
-  coverhunt,
-  portfolio1,
+  // portfolio1,
   portfolio2,
   ticktoclock,
   game,
   puzzle,
-  // dcc,
-  // kelhel,
-  // microverse,
+  solaire,
+  maersk,
+  ventures,
+  resume,
+
 } from '../assets';
 
 export const navLinks = [
@@ -50,11 +41,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Frontend Development',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Backend Development',
     icon: backend,
   },
   {
@@ -101,16 +92,16 @@ const technologies = [
     icon: nodejs,
   },
   // {
-  //   name: 'Rails',
-  //   icon: rubyrails,
+  //   name: 'maersk',
+  //   icon: maersk,
   // },
   // {
-  //   name: 'graphql',
-  //   icon: graphql,
+  //   name: 'ventures',
+  //   icon: ventures,
   // },
   // {
-  //   name: 'postgresql',
-  //   icon: postgresql,
+  //   name: 'solaire',
+  //   icon: solaire,
   // },
   {
     name: 'git',
@@ -128,63 +119,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'FULL STACK WEB DEVELOPER',
-    company_name: '197 Ventures',
-    icon: coverhunt,
+    title: 'PO Encoder',
+    company_name: 'MAERSK',
+    icon: 'maersk',
     iconBg: '#333333',
-    date: 'Feb 2021 - March 2022',
-  }
-  // {
-  //   title: 'Mentor (Volunteer)',
-  //   company_name: 'Microverse',
-  //   icon: microverse,
-  //   iconBg: '#333333',
-  //   date: 'Mar 2022 - May 2022',
-  // },
-  // {
-  //   title: 'Junior Software Engineer',
-  //   company_name: 'Kelhel',
-  //   icon: kelhel,
-  //   iconBg: '#333333',
-  //   date: 'May 2022 - Oct 2022',
-  // },
-  // {
-  //   title: 'Full Stack Developer',
-  //   company_name: 'Diversity Cyber Council',
-  //   icon: dcc,
-  //   iconBg: '#333333',
-  //   date: 'Sep 2022 - Present',
-  // },
+    date: 'September 2024 - Present',
+  },
+  {
+    title: 'Data Analysts',
+    company_name: 'Solaire Hotel Resort and Casino',
+    icon: 'solaire',
+    iconBg: '#333333',
+    date: 'Mar 2022 - May 2023',
+  },
+  {
+    title: 'Website Developer',
+    company_name: '917 Ventures',
+    icon: 'ventures',
+    iconBg: '#333333',
+    date: 'January 2021 - March 2022',
+  },
 ];
 
 const projects = [
-  {
-    id: 'project-1',
-    name: 'Portfolio-v1',
-    description: 'A Porttfolio Built with React',
-    // tags: [
-    //   {
-    //     name: 'react',
-    //     color: 'blue-text-gradient',
-    //   },
-    //   {
-    //     name: 'mongodb',
-    //     color: 'green-text-gradient',
-    //   },
-    //   {
-    //     name: 'tailwind',
-    //     color: 'pink-text-gradient',
-    //   },
-    // ],
-    image: portfolio1,
-    // repo: '#',
-    demo: 'https://bernard-portfolio1.netlify.app/',
-  },
+  // {
+  //   id: 'project-1',
+  //   name: 'Portfolio-v1',
+  //   description: 'A Porttfolio Built with React',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'mongodb',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'tailwind',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: portfolio1,
+  //   repo: '#',
+  //   demo: 'https://bernard-portfolio1.netlify.app/',
+  // },
   {
     id: 'project-2',
-    name: 'Portfolio-v2',
+    name: 'Portfolio',
     description:
-      'Porfolio design for Black Lovers',
+      'My Porfolio Website Built',
     // tags: [
     //   {
     //     name: 'react',
@@ -201,12 +185,12 @@ const projects = [
     // ],
     image: portfolio2,
     // repo: '#',
-    demo: 'https://opisbernard.netlify.app/',
+    demo: 'https://bernardopis.netlify.app/',
   },
   {
     id: 'project-3',
     name: 'Taskmasterlist',
-    description: 'This is a to-do list app built with React',
+    description: 'This is a Task Organizer for your Daily Routines',
     // tags: [
     //   {
     //     name: 'nextjs',
@@ -228,7 +212,7 @@ const projects = [
   {
     id: 'project-4',
     name: '3072',
-    description: '3072 Game',
+    description: '3072 Game for my logical coding practice',
     // tags: [
     //   {
     //     name: 'nextjs',
@@ -250,7 +234,7 @@ const projects = [
   {
     id: 'project-5',
     name: 'Puzzle Madness',
-    description: 'Puzzle Game',
+    description: 'Puzzle Game for Playground Coding Practice',
     // tags: [
     //   {
     //     name: 'nextjs',

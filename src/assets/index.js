@@ -19,7 +19,7 @@ import downloadHover from './icons/downloadHover.png';
 import pineapple from './icons/pineapple.png';
 import pineappleHover from './icons/pineappleHover.png';
 import menu from './icons/menu.png';
-import resume from './icons/resume.png';
+import resume from './resume/Bernard Opis Resume.pdf';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
@@ -38,12 +38,11 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import solaire from './company/solaire.png';
+import maersk from './company/maersk.jpg';
+import ventures from './company/ventures.png';
 
-import portfolio1 from './projects/portfolio1.jpg';
+
 import portfolio2 from './projects/portfolio2.jpg';
 import ticktoclock from './projects/ticktoclock.jpg';
 import game from './projects/game.jpg';
@@ -51,7 +50,6 @@ import puzzle from './projects/puzzle.jpg'
 
 
 export {
-  portfolio1,
   portfolio2,
   ticktoclock,
   game,
@@ -91,8 +89,7 @@ export {
   redux,
   tailwind,
   typescript,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  solaire,
+  maersk,
+  ventures,
 };
